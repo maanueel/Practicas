@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: sans-serif;
+	
+}
+body{
+	background-color: black;
+}
+.encabezado-E{
+	display: grid;
+	grid-template-rows: 120px ;
+	grid-template-columns:  .5fr 4fr 1fr;
+	background: red;
+}
+.Menu-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: blue;
+
+
+}
+.Menu-container a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	margin: 15px;
+	width: 100px;
+	font-size: 20px;
+}
+.Menu-container a:hover{
+	background: grey;
+}
+
+.login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: greenyellow;
+}
+.login span{
+	margin: 10px;
+}
+
+
+
+.logo{
+	display: flex;
+	align-items: center;
+	background: yellow;
+	justify-content: center;
+	display: grid;
+}
+.logo img{
+	width: 100px;
+	
+}
