@@ -47,8 +47,11 @@
 
 		</div>
 		</header>
+		<div class="cont1">
+			
+
+		</div>
 		
-		<div class="main">
 		<div class="content">
 			<h1>HOLA</h1>
 		
@@ -61,7 +64,7 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim  </p>
 		
-		</div></div>
+		</div>
 		 <br>
 	<div class="carrussel-container">
 	<div class="item-carrusel-1">ffdfsdf</div>
@@ -96,6 +99,11 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </div>
-
+<script type="text/javascript">
+	window.addEventListener("scroll", function(){
+		let header = document.querySelector("header");
+		header.classList.toggle("abajo",window.scrollY>50)
+	})
+</script>
 </body>
 </html>

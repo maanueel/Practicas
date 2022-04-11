@@ -1,4 +1,7 @@
 @media screen and (min-width: 1024px){
+	body{
+		background: lightcoral;
+	}
 	.menu-mobile{
 		visibility: hidden;
 		opacity: 0;
@@ -16,5 +19,10 @@
 	.cont-menu{
 		visibility: hidden;
 		opacity: 0;
+	}
+	.content{
+		height: 1200px;
+
+		
 	}
 }
