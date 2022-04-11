@@ -1,0 +1,20 @@
+@media screen and (min-width: 1024px){
+	.menu-mobile{
+		visibility: hidden;
+		opacity: 0;
+		transform: translateX(-1000px);
+	}
+	.menu{
+		visibility: 0;
+		opacity: 0;
+		transform: translateX(-1000px);
+	}
+	.container-menu{
+		visibility: hidden;
+		opacity: 0;
+	}
+	.cont-menu{
+		visibility: hidden;
+		opacity: 0;
+	}
+}

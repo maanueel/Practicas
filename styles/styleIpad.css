@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px){
+	
+	.container-menu{
+		
+		transform: translateX(-1000px);
+	}
+	#btn-menu:checked ~ .container-menu{
+		transform: translateX(30px);
+		
+	
+	}
+	
+	.content{
+		background-color: greenyellow;
+	}
+}
