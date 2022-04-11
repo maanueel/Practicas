@@ -84,7 +84,7 @@ body{
 	position: absolute;
 	top: 100px;
 	left: 0;
-
+	transition: all .4s ease;
 	z-index: 10000;
 }
 .container-menu{
