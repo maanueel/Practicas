@@ -1,13 +1,16 @@
 @media screen and (min-width: 768px){
 	
 	.container-menu{
-		
+		width: 500px;
 		transform: translateX(-1000px);
 	}
 	#btn-menu:checked ~ .container-menu{
-		transform: translateX(30px);
+		transform: translateX(-10px);
 		
 	
+	}
+	.cont-menu{
+		max-width: 500px;
 	}
 	
 	.content{
