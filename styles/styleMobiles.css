@@ -75,7 +75,18 @@ body{
 	transform: rotate(-140deg);
 	top: 10px;
 }
+.capa{
+	width: 100%;
+	height: 100vh;
+	visibility: hidden;
+	background: black;
+	opacity: 0;
+	position: absolute;
+	top: 100px;
+	left: 0;
 
+	z-index: 10000;
+}
 .container-menu{
 		position: absolute;
 		width: 250px;
@@ -85,15 +96,18 @@ body{
 		top: -5px;
 		left: 0;
 		transition: all 500ms ease;
-		z-index: 1000;
+		z-index: 10500;
 		transform: translateX(-1000px);
 	
 		
 	}
 	#btn-menu:checked ~ .container-menu{
 		transform: translateX(-10px);
-		
-	
+	}
+	#btn-menu:checked ~ .capa{
+		visibility: visible;
+		opacity: .7;
+		transition: opacity .4s ease;
 	}
 	.cont-menu{
 		width: 100%;
