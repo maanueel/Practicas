@@ -15,6 +15,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/f16b090aff.js" crossorigin="anonymous"></script>
 	<title>Send - servicio de paquetería</title>
 </head>
 <body>
@@ -42,6 +43,22 @@
 
 			
 		</nav>
+		<div class="redes">
+		<a href="https://www.facebook.com/" class="redes1" target="_blank">
+	   			<i class="fa-brands fa-facebook"></i>
+				</a>
+				<a href="https://twitter.com/" class="redes1" target="_blank">
+	   			<i class="fa-brands fa-twitter"></i>
+				</a>
+				<a href="https://www.instagram.com/" class="redes1" target="_blank">
+	   			<i class="fa-brands fa-instagram"></i>
+				</a>
+				<a href="https://www.linkedin.com/" class="redes1" target="_blank">
+	   			<i class="fa-brands fa-linkedin-in"></i>
+				</a>
+				<a href="https://plus.google.com/" class="redes1" target="_blank">
+	   			<i class="fa-brands fa-google-plus-g"></i>
+				</a></div>
 	</div>
 	</div>
 	</div></div>
@@ -69,7 +86,7 @@
 				<h6>Usuario</h6>
 				<input type="text" name="newUser" placeholder="Ingresa tu nombre de usuario" class="input-form">
 				<h6>Contraseña</h6>
-				<input type="password" name="newPassword" placeholder="Ingresa la contraseña que utilizarás"  class="input-form">
+				<input type="password" name="newPassword" placeholder="Ingresa tu contraseña"  class="input-form">
 				<h6></h6>
 				<input type="submit" name="newPassword" value="REGISTRAR"  class="input-button">
 			</form>
@@ -83,9 +100,9 @@
 		</div>
 		 
 		 <div class="servicios">
-		 	<b data-aos="fade-right">MIRA NUESTROS SERVICIOS</b>
+		 	<h2 data-aos="fade-right">MIRA NUESTROS SERVICIOS</h2>
 		 	</div>
-	<div class="carrussel-container" data-aos="flip-left">
+	<div class="carrussel-container" data-aos="fade-up">
 
 	<div class="item-carrusel item0">
 		<h2>Servicio Básico</h2>
@@ -97,7 +114,7 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 		</p></div>
-	<div class="item-carrusel item2">
+	<div class="item-carrusel item2" >
 		<h2>Servicio C.O.D</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
@@ -111,13 +128,34 @@
 		<h2>Servicio Internacional</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-		</ item</div>
+		</p></div>
 </div>
+<h2 data-aos="fade-right" class="text">Nuestra Misión y Visión</h2>
+<div class="cont3">
+	<div class="cont3__mision">
+		<img src="styles/mision.jpeg" data-aos="fade-down"><br>
+		<b data-aos="fade-up">Visión</b>
+		<p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	</div>
+	<div class="cont3__vision">
+		<img src="styles/vision.jpg" data-aos="fade-down"><br>
+		<b data-aos="fade-up">Misión</b>
+		<p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	</div>
+</div>
+
+<footer class="footer">
+	
+</footer>
+
 <script type="text/javascript">
 	window.addEventListener("scroll", function(){
 		let header = document.querySelector("header");
-		header.classList.toggle("abajo",window.scrollY>100)
-	})
+		header.classList.toggle("abajo",window.scrollY>100);
+	});
+	
 </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
 	 
