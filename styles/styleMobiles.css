@@ -382,7 +382,7 @@ background:  #418A93;
 .cont3 img{
 	width: 200px;
 	min-width: 200px;
-	height: 300px;
+	min-height: 200px;
 	border-radius: 50%;
 	object-fit: cover;
 	object-position: center;
