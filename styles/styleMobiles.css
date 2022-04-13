@@ -25,13 +25,14 @@ body{
 	
 }
 .logo{
-
+	width: 140px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .logo img{
 	width: 100px;
+	
 
 }
 .menu{
@@ -380,6 +381,7 @@ background:  #418A93;
 }
 .cont3 img{
 	width: 200px;
+	min-width: 200px;
 	height: 300px;
 	border-radius: 50%;
 	object-fit: cover;
