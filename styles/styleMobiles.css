@@ -152,7 +152,7 @@ h1{
 		height: 50px;
 		display: flex;
 		background: lightgrey;
-		justify-content: space-evenly;
+		justify-content: center;
 		align-items: center;
 	}
 .redes1{
